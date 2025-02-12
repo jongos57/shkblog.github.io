@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const apiKey = "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";  // 🔹 Dummy API Key
+const apiKey = "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";  // 🔹 Dummy API Key
 
 app.post("/chatgpt", async (req, res) => {
     const { prompt } = req.body;
