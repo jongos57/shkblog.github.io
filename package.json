@@ -1,0 +1,15 @@
+{
+  "name": "flux-ai-backend",
+  "version": "1.0.0",
+  "description": "Flux AI Backend for ChatGPT API",
+  "main": "flux-ai-server.js",
+  "scripts": {
+    "start": "node flux-ai-server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0",
+    "node-fetch": "^2.6.1"
+  }
+}
